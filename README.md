@@ -1,7 +1,7 @@
 # XP2Earth
 X-Plane plugin to connect to Google Earth
 
-For license see ???
+For license see https://github.com/Djeez2/XP2Earth LICENSE.
 
 View the terrain in Google Earth while flying X-Plane.
 
@@ -9,7 +9,7 @@ Currently, this plugin is only available for Windows.
 
 ## Installation
 
-- Extract the zip file in the X-Plane/resources/plugins folder.
+- Extract the zip file in the X-Plane\Resources\plugins folder.
 - Install Google Earth Pro desktop application (free of charge, see its license)
 
 
@@ -56,7 +56,7 @@ Thanks to
 
 ## For developers
 
-The source of this plugin is available on GitHub:
+The source of this plugin is available on GitHub: https://github.com/Djeez2/XP2Earth
 
 Please create pull requests for improvements. I especially would appreciate contributions for other platforms, 
 as I have no experience building plugins for MacOS or Linux, nor am I able to test those.
