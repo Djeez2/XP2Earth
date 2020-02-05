@@ -1,4 +1,5 @@
 # XP2Earth
+
 X-Plane plugin to connect to Google Earth
 
 For license see https://github.com/Djeez2/XP2Earth LICENSE.
@@ -9,8 +10,9 @@ Currently, this plugin is only available for Windows.
 
 ## Installation
 
-- Extract the zip file in the X-Plane\Resources\plugins folder.
+- Extract the zip file in the X-Plane\Resources\plugins folder. Ensure that you don't accidentally create a double xp2earth\xp2earth folder.
 - Install Google Earth Pro desktop application (free of charge, see its license)
+- Install the Microsoft Visual C++ Runtime 2019 from https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads.
 
 
 ## One-time setup
@@ -18,10 +20,13 @@ Currently, this plugin is only available for Windows.
 - To get the best experience, experiment with the fly-to speed in Google Earth. (Menu: Tools -> Options -> Navigation -> Fly-To Speed). 
 For me, the best setting is 3.5 to 4.0
 - Select your viewing preferences. Some suggestions:
-	* Show atmosphere
-	* Hide grid
-	* Show places to get acquinted with the surroundings
-	* Show 3D buildings
+	* In View menu:
+		- Show atmosphere
+		- Hide grid
+	* In Layers selection:
+		- Uncheck everything, except
+		- Check 3D buildings -> Photorealistic
+		- Check Terrain
 
 
 ## Operating instructions
@@ -29,6 +34,9 @@ For me, the best setting is 3.5 to 4.0
 - In the X-Plane menu select Plugins -> XP2Earth -> Tracking to start tracking your position. Select again to stop tracking.
 - Click XP2Earth -> Connect Earth to start Google Earth automatically (when not already started), and have it update its location.
 
+Viewing options in the XP2Earth plugin menu:
+- Pilot View: This sets the Google Earth eye point close to the ground. However, this leads to weird effects at some airports when the elevation in Google Earth is different from X-Plane's.
+- Look Around: This allows you to look around in Google Earth by moving your head in the cockpit.
 
 ## Remote operation
 
@@ -49,6 +57,7 @@ This plugin uses ideas and code from
 In the spririt of these open source projects I also contribute this plugin to the open source community.
 
 Thanks to
+- Kees Houbolt for testing many early versions of the plugin.
 - Google for providing Google Earth free of charge.
 - Laminar Research for opening up X-Plane through a well-documented SDK.
 - Microsoft for providing Visual Studio Community Edition free of charge.

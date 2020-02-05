@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<NetworkLink>
+	<name>XPlane Tracker</name>
+	<open>1</open>
+	<Camera>
+		<longitude>5.384222</longitude>
+		<latitude>51.453578</latitude>
+		<altitude>2.0</altitude>
+		<heading>125.594879</heading>
+		<tilt>91.903829</tilt>
+		<roll>0.019217</roll>
+		<altitudeMode>relative_to_ground</altitudeMode>
+	</Camera>
+	<refreshVisibility>1</refreshVisibility>
+	<flyToView>1</flyToView>
+	<Link>
+		<href>http://localhost:8000/update.kml</href>
+		<refreshMode>onInterval</refreshMode>
+		<refreshInterval>0.1</refreshInterval>
+	</Link>
+</NetworkLink>
+</kml>
+
