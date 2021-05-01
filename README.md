@@ -8,6 +8,12 @@ View the terrain in Google Earth while flying X-Plane.
 
 Currently, this plugin is only available for Windows.
 
+## New in version 1.1:
+
+- Users can now bind keys to control the plugin
+- Some settings such as tilt angle and pilot height are now customizable
+- Cockpit builders can now use commands and datarefs to control the plugin
+
 ## Installation
 
 - Extract the zip file in the X-Plane\Resources\plugins folder. Ensure that you don't accidentally create a double xp2earth\xp2earth folder.
@@ -61,6 +67,11 @@ Thanks to
 - Google for providing Google Earth free of charge.
 - Laminar Research for opening up X-Plane through a well-documented SDK.
 - Microsoft for providing Visual Studio Community Edition free of charge.
+
+
+## For cockpit builders
+
+Access to the plugin is clustered in the xp2earth/... commands and datarefs.
 
 
 ## For developers

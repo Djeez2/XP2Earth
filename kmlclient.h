@@ -11,9 +11,6 @@
 
 #include "mongoose.h"
 
-const float DEFAULT_HEIGHT = 20.0f;
-const float DEFAULT_TILT = 80.0f;
-
 class KmlClient
 {
 public:
@@ -25,11 +22,10 @@ public:
     void stop_tracking();
     void connect_earth();
     bool isConnected();
-    void set_pilot_view_on();
-    void set_pilot_view_off();
     void set_look_around_on();
     void set_look_around_off();
     bool is_looking_around();
+    void set_view(float newHeight, float newTilt);
 
     float height;  // height above ground in meter
     float tilt;   // tilt angle when at zero pitch

@@ -14,9 +14,9 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{6EF5B7F3-9388-4FF8-B8F0-DB5190CE2A6B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>xp2kml</RootNamespace>
+    <RootNamespace>GAPanelX</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
-    <ProjectName>XP2Earth</ProjectName>
+    <ProjectName>xp2earth</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -97,6 +97,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="create_install.bat" />
+    <None Include="debug.bat" />
     <None Include="README.md" />
     <None Include="XP2Earth.kml" />
   </ItemGroup>

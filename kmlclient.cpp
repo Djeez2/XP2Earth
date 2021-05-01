@@ -71,8 +71,8 @@ KmlClient::KmlClient() :
     mgr(),
     conn(),
     enabled(false),
-    height(DEFAULT_HEIGHT),
-    tilt(DEFAULT_TILT),
+    height(),
+    tilt(),
     look_around(false)
 {
     trace("xp2earth enable\n");
@@ -124,14 +124,9 @@ bool KmlClient::isConnected() {
     return conn != NULL;
 }
 
-void KmlClient::set_pilot_view_on() {
-    height = 2.0f;
-    tilt = 85.0f;
-}
-
-void KmlClient::set_pilot_view_off() {
-    height = DEFAULT_HEIGHT;
-    tilt = DEFAULT_TILT;
+void KmlClient::set_view(float newHeight, float newTilt) {
+    height = newHeight;
+    tilt = newTilt;
 }
 
 void KmlClient::set_look_around_on()
